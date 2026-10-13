@@ -1,0 +1,52 @@
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Test and coverage files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Model training checkpoints
+checkpoints/
+runs/
+
+# Generated model files (uncomment if you don't want them in GitHub)
+# *.h5
+# *.keras
+# *.pkl
+
+# Generated dataset files (uncomment if you don't want them in GitHub)
+# processed_data/
+# output/
